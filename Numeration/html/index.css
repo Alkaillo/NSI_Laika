@@ -1,6 +1,18 @@
 html{
-    color:#000000;
+    color:#ffffff;
+    background-color: #c3b2ae;
 }
 .Exercice1{
-    color:blue;
+    color:purple;
+    font-family: "Liberation Mono";
+}
+.ASCII{
+    color: green;
+    font-family: "Liberation Mono";
+}
+#strong{
+    font-size:25px;
+}
+#strong2{
+    font-size:25px;
 }
