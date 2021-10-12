@@ -1,0 +1,22 @@
+html{
+    font-size: 12px;
+    background-color: #000000;
+    background-image: none;
+}
+.Title{
+    font-size: 25px;
+    text-align: center;
+}
+#1{
+    font-style: normal;
+    color:#c3b2ae;
+    font-size: 15px;
+}
+#2{
+    font-size: 15px;
+    color:#c3b2ae;
+}
+#3{
+    font-size:15px;
+    color:green;
+}
