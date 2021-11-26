@@ -1,7 +1,7 @@
 html{
     font-size: 12px;
     background-color: #000000;
-    background-image: none;
+    color: #c3b2ae;
 }
 .Title{
     font-size: 25px;
@@ -19,4 +19,15 @@ html{
 #3{
     font-size:15px;
     color:green;
+}
+#4{
+    font-size: 15px;
+}
+.first{
+    font-size: 15px;
+    color: #e6b3e1;
+}
+.second{
+    font-size: 15px;
+    color: #4c7bd9;
 }
