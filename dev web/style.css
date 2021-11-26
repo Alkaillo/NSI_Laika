@@ -1,11 +1,10 @@
 body{
     background-color: #222222;
 }
-a{
+.main_link{
+    text-align: center;
     font-size: 42px;
     color:#ffffff;
     align-items: center;
 }
-.main_link{
-    text-align: center;
-}
+
