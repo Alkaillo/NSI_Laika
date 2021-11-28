@@ -5,4 +5,4 @@
 ![badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 Binôme : 
-![badge](https://github-readme-stats.vercel.app/api?username=programming74&theme=blue-green)
+[![badge](https://github-readme-stats.vercel.app/api?username=Alkaillo&theme=blue-green)](https://github.com/Alkaillo/NSI_Laika)
