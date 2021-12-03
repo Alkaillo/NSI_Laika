@@ -4,3 +4,9 @@
 #body{
     background-color: #323232;
 }
+.presentation {
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+}
