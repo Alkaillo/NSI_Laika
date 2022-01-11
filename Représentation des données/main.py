@@ -36,3 +36,21 @@ is_square([4.5, 6, 7.5])'''
     print(maxi,mini,moy)
 
 min_max_moy([7,9,71,6,27,89])'''
+
+
+'''pays = {
+    'paris':{'pays':'france',
+    'distance':float(391.18),
+    'nb_habit':2590771}
+}'''
+
+'''def ficheCp(capital):
+    cp = str(capital)
+    print(pays[cp])
+    
+
+ficheCp('paris')'''
+
+'''def distanceInferieur(distanceInf):
+    dis = float(distanceInf)
+    print(pays['']['distance'] < dis)'''
