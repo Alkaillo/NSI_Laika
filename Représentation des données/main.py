@@ -1,4 +1,5 @@
 import statistics
+import numpy
 #rectangle_list = [4.5, 6, 7.5]
 #def is_square():
 #    if rectangle_list[0]**2 + rectangle_list[1]**2 == rectangle_list[2]**2:
@@ -17,3 +18,6 @@ import statistics
 #    print(maxi,mini,moy)
 #
 #min_max_moy([7,9,71,6,27,89])
+
+
+
