@@ -50,3 +50,4 @@ check_palindrome([1,2,1])'''
             i = i+1
     print(w)
 ComptageListe([78,78,78,78,4,6,72,5,3], 78)'''
+
