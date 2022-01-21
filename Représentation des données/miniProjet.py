@@ -1,12 +1,12 @@
 inp = input('Souhaitez vous ajouter, supprimer ou rechercher un numéro ? ')
 
 L = {}
-if inp == 'ajouter' | "add" :
+if inp == 'ajouter' or "add" :
     num = input('Quel numéro souhaitez vous ajouter ? ')
     name = input('Pour quel nom ? ')
     L[name : num]
 
-elif inp == 'supprimer' | 'del' | 'delete':
+elif inp == 'supprimer' or 'del' or 'delete':
     del_name = input('Quel nom souhaitez vous supprimer ? ')
     if del_name in L['name']:
         del L[del_name]
