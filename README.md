@@ -6,3 +6,4 @@
 
 [![badge](https://github-readme-stats.vercel.app/api?username=Alkaillo&theme=blue-green)](https://github.com/Alkaillo/NSI_Laika)
 [![badge](https://github-readme-stats.vercel.app/api?username=programming74&theme=blue-green)](https://github.com/Alkaillo/NSI_Laika)
+[![badge](https://github-readme-stats.vercel.app/api?username=adrilava&theme=blue-green)](https://github.com/Alkaillo/NSI_Laika)
