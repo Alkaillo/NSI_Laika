@@ -40,9 +40,23 @@ def MostPopular2004():
     dictio2 = dict(zip(df2["prenom"], df2["nombre"]))
     print(dictio2, dictio)'''
 
+
 def writerJoin():
+    di = pd.read_csv("/home/laika/Documents/GitHub/NSI_Laika/TraitementDonnees/miniProjet/Prenoms2003-2004.csv")
+    dictTotal = dict(zip(di["prenom"], di["nombre"]))
     field_names = ['sexe', 'prenom', 'annee', 'nombre']
-    with open("/home/laika/Documents/GitHub/NSI_Laika/TraitementDonnees/miniProjet/prenomCombine.csv", 'w', newline='' ) as listPrenom:
-        objet = csv.DictWriter(listPrenom, fieldnames=field_names, delimiter=',')
+    with open("/home/laika/Documents/GitHub/NSI_Laika/TraitementDonnees/miniProjet/prenomCombine.csv", 'w', newline='' ) as listPrenomCombine:
+        l = []
+        L = []
+        nbTotal = 0
+        for line in dictTotal:
+            if dictTotal[line]["prenom"] not in l:
+                l.append(dictTotal["prenom"][line])
+                nbTotal = nbTotal + dictTotal[line].value()
+            elif dictTotal["prenom"][line] in l:
+                nbTotal = nbTotal + dictTotal['prenom'][line].value()
+            
+        L = dict(zip(l, nbTotal))
+        objet = csv.DictWriter(listPrenomCombine, fieldnames=field_names, delimiter=',')
         objet.writeheader()
-        objet.writerows(table3)
+        objet.writerows(l)
