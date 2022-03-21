@@ -1,3 +1,4 @@
+from math import exp
 '''#exercice 1 : 
 
 def renduMonnaieGlouton(x):
@@ -25,7 +26,7 @@ renduMonnaieGlouton(13) #5,5,2,1
 renduMonnaieGlouton(48) #36,12,6'''
 
 #exercice 3
-Listmalle = [{"nom": "train", "taille":18},{"nom": "pin", "taille":15}] 
+'''Listmalle = [{"nom": "train", "taille":18},{"nom": "pin", "taille":15}] 
 
 def place_occupe():
     w = 0
@@ -33,4 +34,6 @@ def place_occupe():
         i = int(i)
         w = w + Listmalle[i]
     print(w)
-place_occupe()
+place_occupe()'''
+
+#algorithmie k premiers
